@@ -1,6 +1,6 @@
 {
   "name": "occamsrazor-click-browser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It triggers an occamsrazor event on click",
   "main": "index.js",
   "scripts": {
