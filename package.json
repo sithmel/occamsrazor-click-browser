@@ -4,7 +4,7 @@
   "description": "It triggers an occamsrazor event on click",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*.js",
+    "test": "true",
     "watch": "npm run test -- -w",
     "lint": "eslint --fix --ext .js ./index.js ./tests",
     "release:major": "./node_modules/.bin/npm-release major",
@@ -32,7 +32,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.10.2",
-    "mocha": "^2.1.0",
+    "mocha": "^5.2.0",
     "npm-release": "^1.0.0",
     "occamsrazor": "^7.0.0",
     "sinon": "^4.1.3"
